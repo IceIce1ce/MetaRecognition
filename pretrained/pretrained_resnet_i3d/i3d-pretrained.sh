@@ -1,0 +1,4 @@
+wget https://dl.fbaipublicfiles.com/video-nonlocal/i3d_baseline_32x2_IN_pretrain_400k.pkl
+wget https://dl.fbaipublicfiles.com/video-nonlocal/i3d_nonlocal_32x2_IN_pretrain_400k.pkl
+python3 -m convert_weights_i3d.convert_weights_i3d i3d_baseline_32x2_IN_pretrain_400k.pkl i3d_r50_kinetics.pth
+python3 -m convert_weights_i3d.convert_weights_i3d i3d_nonlocal_32x2_IN_pretrain_400k.pkl i3d_r50_nl_kinetics.pth

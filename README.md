@@ -10,6 +10,9 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 pip install -r requirements.txt
 ```
 
+## Download pretrained weights
+To train the models on UCF-101 dataset, you can download our pretrained weights from [MetaRecognition](https://drive.google.com/file/d/1jtHeWCoVqeo-cJu5ma5CEaDhRKz0TJxN/view?usp=sharing)
+
 ## Dataset Preparation
 Download the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) dataset and structure the data as follows:
 ```

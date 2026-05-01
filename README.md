@@ -26,7 +26,7 @@ dataset/UCF-101/
   ...
 ```
 
-## Usage
+## 4. Usage
 To use our model, follow the code snippet below:
 ```bash
 cd Video_Recognition
@@ -132,7 +132,7 @@ bash train_i3d_pretrained.sh
 bash demo_i3d_pretrained.sh
 ```
 
-## 4. Citation
+## 5. Citation
 If you find our work useful, please cite the following:
 ```
 @misc{Chi2023,
@@ -145,11 +145,11 @@ If you find our work useful, please cite the following:
 }
 ```
 
-## 5. Contact
+## 6. Contact
 If you have any questions, feel free to contact `Chi Tran` 
 ([ctran743@gmail.com](ctran743@gmail.com) or [tdc2000@skku.edu](tdc2000@skku.edu)).
 
-## 6. Acknowledgement
+## 7. Acknowledgement
 Our framework is built using multiple open source, thanks for their great contributions.
 <!--ts-->
 * [facebookarchive/C3D](https://github.com/facebookarchive/C3D)

@@ -1,8 +1,8 @@
 This is the official repository of 
 
-**MetaRecognition: A Unified Framework for Video Action Recognition.**
+**MetaRecognition: A Unified Framework for Video Action Recognition Methods.**
 
-## Setup
+## 1. Setup
 ```bash
 conda create -n meta_recognition python=3.10
 conda activate meta_recognition
@@ -10,10 +10,10 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 pip install -r requirements.txt
 ```
 
-## Download pretrained weights
+## 2. Download pretrained weights
 To train the models on UCF-101 dataset, you can download our pretrained weights from [MetaRecognition](https://drive.google.com/file/d/1jtHeWCoVqeo-cJu5ma5CEaDhRKz0TJxN/view?usp=sharing)
 
-## Dataset Preparation
+## 3. Dataset preparation
 Download the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) dataset and structure the data as follows:
 ```
 dataset/UCF-101/
@@ -132,15 +132,12 @@ bash train_i3d_pretrained.sh
 bash demo_i3d_pretrained.sh
 ```
 
-## MetaAnomaly Model Zoo
-TBA.
-
-## Citation
+## 4. Citation
 If you find our work useful, please cite the following:
 ```
 @misc{Chi2023,
   author       = {Chi Tran},
-  title        = {MetaRecognition: A Unified Framework for Video Action Recognition},
+  title        = {MetaRecognition: A Unified Framework for Video Action Recognition Methods},
   publisher    = {GitHub},
   booktitle    = {GitHub repository},
   howpublished = {https://github.com/IceIce1ce/MetaRecognition},
@@ -148,11 +145,11 @@ If you find our work useful, please cite the following:
 }
 ```
 
-## Contact
+## 5. Contact
 If you have any questions, feel free to contact `Chi Tran` 
-([ctran743@gmail.com](ctran743@gmail.com)).
+([ctran743@gmail.com](ctran743@gmail.com) or [tdc2000@skku.edu](tdc2000@skku.edu)).
 
-##  Acknowledgement
+## 6. Acknowledgement
 Our framework is built using multiple open source, thanks for their great contributions.
 <!--ts-->
 * [facebookarchive/C3D](https://github.com/facebookarchive/C3D)

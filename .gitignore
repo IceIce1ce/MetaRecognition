@@ -1,3 +1,32 @@
+# general ignore
+__pycache__/
+.idea
+*.pt
+*.pth
+*.pyth
+*.bin
+*.safetensors
+*.mat
+*.xyz
+*.npy
+*.npz
+*.csv
+*.so
+*.egg
+*.mp4
+*.tar
+*.gz
+*.tar.gz
+*.pkl
+*.h5ad
+*.pckl
+*.ckpt
+*.pts
+*.DS_Store
+*.rrd
+*.ruff_cache
+
+# ignore model folders
 pretrained/pretrained_c3d/c3d-pretrained.pth
 pretrained/pretrained_mobilenet3D_v1/kinetics_mobilenet_0.5x_RGB_16_best.pth
 pretrained/pretrained_mobilenet3D_v1/kinetics_mobilenet_1.0x_RGB_16_best.pth
